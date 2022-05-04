@@ -1,7 +1,9 @@
 {
-    "azureFunctions.deploySubpath": "Functions\\FlightDataFunctionApp\\FlightDataFunctionApp/bin/Release/netcoreapp2.1/publish",
+    "azureFunctions.deploySubpath": "Functions\\FlightDataFunctionApp\\FlightDataFunctionApp/bin/Release/net6.0/publish",
     "azureFunctions.projectLanguage": "C#",
     "azureFunctions.projectRuntime": "~2",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "publish (functions)"
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "appService.defaultWebAppToDeploy": "/subscriptions/9ab4916d-d237-440a-a20d-0eda593aebdc/resourceGroups/rg-iot-mapping/providers/Microsoft.Web/sites/app-iot-mapping",
+    "appService.deploySubpath": "Web"
 }
